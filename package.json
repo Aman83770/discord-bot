@@ -12,8 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "superagent": "^5.1.0",
-    "mongoose": "^5.6.9"
+    "mongoose": "^5.6.9",
+    "superagent": "^5.1.0"
   },
   "engines": {
     "node": "12.x"

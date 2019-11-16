@@ -2,6 +2,7 @@
 const mongoose = require('mongoose');
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const http = require('http');
 
 // login with discord bot
 const { discord_token } = require('./config/app.js');
@@ -16,6 +17,14 @@ const googleSearch = require("./google-search.js");
 
 // function to store and retrieve data from DB
 const { storeUserHistory, getUserHistory } = require("./models/UserHistory.js");
+
+// run http server
+const port = process.env.PORT || 4000;
+http.createServer((req, res) => {
+  res.write('Server is running!');
+  res.end();
+}).listen(port);
+
 
 // On successful connection
 client.on('ready', () => {
