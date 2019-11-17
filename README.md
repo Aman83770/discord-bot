@@ -4,7 +4,7 @@ A Discord bot to search anything on google by using Google custom search API. Th
 ## Commands
 
 ```
-Hey => hi
+Hey : hi
 ```
 ```
 !google keyword : give top 5 result of google search of keyword
@@ -13,7 +13,7 @@ Hey => hi
 !recent : give you your recent history
 ```
 ```
-!recent keyword : give you the result in your search history consisting word keyword
+!recent keyword : give you the result in your search history consisting word/sentence keyword
 ```
 
 
